@@ -1,0 +1,42 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  color: #1f2906;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+.subtitulo {
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 3ch !important;
+}
+
+@media (max-width: 800px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: inicial;
+    flex-wrap: nowrap;
+    word-break: normal;
+  }
+}
